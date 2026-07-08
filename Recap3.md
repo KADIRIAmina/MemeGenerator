@@ -16,3 +16,4 @@ what react can't handle:
 
 - cleanup functions
 
+- useRef; refs are similar to state, except changing a ref doesn't cause a re render (we use it to access the dom nodes without assigning ids to elements)
